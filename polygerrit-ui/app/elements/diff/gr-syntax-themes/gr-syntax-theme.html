@@ -20,7 +20,7 @@ limitations under the License.
       /**
        * @overview Highlight.js emits the following classes that do not have
        * styles here:
-       *    subst, symbol, class, function, doctag, meta-string, section, name,
+       *    subst, class, function, doctag, meta-string, section, name,
        *    builtin-name, bulletm, code, formula, quote, addition, deletion,
        *    attribute
        * @see {@link http://highlightjs.readthedocs.io/en/latest/css-classes-reference.html}
@@ -41,6 +41,9 @@ limitations under the License.
       .gr-syntax-keyword,
       .gr-syntax-name {
         color: var(--syntax-keyword-color);
+      }
+      .gr-syntax-symbol {
+        color: var(--syntax-symbol-color);
       }
       .gr-syntax-number {
         color: var(--syntax-number-color);
